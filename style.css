@@ -1,0 +1,182 @@
+body{
+  background-image: url("images/edit\ 1.jpg"), 
+  linear-gradient( to bottom, rgb(2, 1, 19) 68%,rgb(10, 3, 77) 70%,rgb(24, 86, 158) 80% , rgb(75, 4, 63) 100%) 
+  ;
+  background-repeat: no-repeat; 
+  background-position: top center;
+  background-size: 100rem;
+  
+  
+}
+
+.header{
+    background-color: #0c0b17;
+  }
+  .main-heading{
+    height: 100px;
+    text-align: center;
+    background-image: linear-gradient( to right, rgb(15, 3, 121),  rgb(165, 4, 138));
+    padding-top:20px;
+    font-size:50px;
+    color:white;
+    font-weight:bolder;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+ 
+ 
+
+  .nav-text{
+    font-size: larger;
+    color: aqua;
+  }
+  @media (min-width: 768px) {
+    .animate {
+      animation-duration: 0.3s;
+      -webkit-animation-duration: 0.3s;
+      animation-fill-mode: both;
+      -webkit-animation-fill-mode: both;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0rem);
+      opacity: 1;
+    }
+  
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes slideIn {
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+  
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+  
+    0% {
+      -webkit-transform: translateY(1rem);
+      -webkit-opacity: 0;
+    }
+  }
+  
+  .slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+  }
+
+  .img-me{
+    border-radius: 10px;
+    margin-top: 5rem;
+    transition: transform .2s;
+  }
+  .img-me:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 11px rgba(57, 28, 226, 0.767); 
+  }
+.matter{
+  margin-top: 5rem;
+}
+  .matter-title{
+    color: rgba(57, 28, 226, 0.767);
+  }
+  .matter-content{
+    color: aliceblue;
+  }
+  .contact-me-link{
+    color: aqua;
+    font-weight: normal ;
+    font-size: large;
+  }
+  .matter-bg{
+    background-color: rgba(0,0,0,.5); 
+    border-radius: 10px;
+    padding-top: 2rem;
+    height: 18rem; 
+  }
+
+    .images{
+      float: left;
+      margin-top: 2rem;
+    }
+    .Graphite-title{
+      color: aliceblue;
+      font-size: 3rem;
+      font-weight:lighter ;
+      padding-left: 3rem;
+      
+    }
+    .graphite-bg{
+      background-color: rgba(0,0,0,.5); 
+      border-radius: 10px;
+      height: fit-content;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      margin-top: 6rem;
+      margin-bottom: 1rem;
+    
+    }
+    .tab-background{
+      background-color: rgba(0,0,0,.5); 
+      border-radius: 10px;
+      height: fit-content;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      margin-top: 2rem;
+      
+    }
+    .title-text{
+      color: aliceblue;
+      font-size: 3rem;
+      font-weight:lighter ;
+      margin-left: 2rem;
+    }
+.DP-squ-img{
+  margin-top: 2rem;
+  float: left;
+}
+.art-img{
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+.art-img:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 11px rgba(57, 28, 226, 0.767); 
+}
+.submit-btn{
+  border-radius: 10px;
+  background-color: blue;
+  color: antiquewhite;
+  border: none;
+  width: 100%;
+  height: 3rem;
+}
+.submit-btn:hover{
+  background-color: rgb(11, 11, 148);
+ 
+}
+.icon{
+  margin-top: 1rem;
+  margin-left: 2rem;
+  
+}
+
+  .foot{
+    width: 100%;
+    height: fit-content;
+    background-color: #000000;
+  }
