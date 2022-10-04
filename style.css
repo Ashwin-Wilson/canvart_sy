@@ -1,17 +1,27 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+}
 body{
   background-image: url("images/edit\ 1.jpg"), 
-  linear-gradient( to bottom, rgb(2, 1, 19) 68%,rgb(10, 3, 77) 70%,rgb(24, 86, 158) 80% , rgb(75, 4, 63) 100%) 
-  ;
+  linear-gradient( to bottom, rgb(2, 1, 19) 68%,rgb(10, 3, 77) 70%,rgb(24, 86, 158) 80% , rgb(75, 4, 63) 100%) ;
   background-repeat: no-repeat; 
   background-position: top center;
   background-size: 100rem;
-  
-  
 }
-
+.sticky-top{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar-light .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28270, 0, 210, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 .header{
-    background-color: #0c0b17;
-  }
+  background-color: #0c0b17;
+}
   .main-heading{
     height: 100px;
     text-align: center;
@@ -73,12 +83,14 @@ body{
       -webkit-opacity: 0;
     }
   }
-  
+
   .slideIn {
     -webkit-animation-name: slideIn;
     animation-name: slideIn;
   }
-
+.home{
+  margin-top: 10rem;
+}
   .img-me{
     border-radius: 10px;
     margin-top: 5rem;
